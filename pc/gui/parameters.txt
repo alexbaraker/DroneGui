@@ -1,0 +1,1 @@
+{'gradient': 152, 'accumulator': 77, 'minDist': 221, 'maxRadius': 75, 'dp': 5, 'minRadius': 50}
