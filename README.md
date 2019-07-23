@@ -139,7 +139,7 @@ ADDR_CAM | 0xFFFC1000 | 8 | Has functionality dealing with object tracking. This
 
 &nbsp;
 
-![](hhttps://i.imgur.com/y8vE1jS.png)
+![](https://i.imgur.com/y8vE1jS.png)
 
 **Figure 2:** `NetClient` consists four instantiations of clients
 
