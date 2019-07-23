@@ -137,11 +137,13 @@ ADDR_CAM | 0xFFFC1000 | 8 | Has functionality dealing with object tracking. This
 
 **Figure 1:** The main initialization in run.py consists of instantiations of `NetClient` and `MainWindow`
 
+&nbsp;
 
 ![](hhttps://i.imgur.com/y8vE1jS.png)
 
 **Figure 2:** `NetClient` consists four instantiations of clients
 
+&nbsp;
 
 ![](https://i.imgur.com/EuQiwKc.png)
 
@@ -154,26 +156,31 @@ ADDR_CAM | 0xFFFC1000 | 8 | Has functionality dealing with object tracking. This
 
 **Figure 4:** Each of pwm_client’s topics are hooked to their own callbacks which allow the updating of the pwm duty cycle values displayed in the GUI
 
+&nbsp;
 
 ![](https://i.imgur.com/CTklYAK.png)
 
 **Figure 5:** cam_client is hooked to a callback which enters into the image processing pipeline
 
+&nbsp;
 
 ![](https://i.imgur.com/8CZhEV9.png)
 
 **Figure 6:** Upon finishing the image processing pipeline, the detection data is sent to the drone via ctrl_client
 
+&nbsp;
 
 ![](https://i.imgur.com/8M41DQc.png)
 
 **Figure 7:** pwm_status_server streams pwm duty cycle values which are read from memory
 
+&nbsp;
 
 ![](https://i.imgur.com/F37qwFn.png)
 
 **Figure 8:** cam_stream streams frames fetched from camera by calling camera driver’s getFrame routine.
 
+&nbsp;
 
 ![](https://i.imgur.com/BD8ACyg.png)
 
